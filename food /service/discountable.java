@@ -1,5 +1,5 @@
-package food .service;
+package food.service;
 
-public class discountable {
-    
+public interface discountable {
+    double applydiscount();
 }
